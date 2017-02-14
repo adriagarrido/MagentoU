@@ -10,4 +10,13 @@
             </argument>
         </arguments>
     </type>
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="alterPrice" type="Unit1\FirstModule\Plugin" sortOrder="1" disabled="false" />
+    </type>
+    <type name="Magento\Theme\Block\Html\Footer">
+        <plugin name="alterCopyright" type="Unit1\FirstModule\Plugin" sortOrder="1" disabled="false" />
+    </type>
+    <type name="Magento\Theme\Block\Html\Breadcrumbs">
+        <plugin name="changeBreadcrumbs" type="Unit1\FirstModule\Plugin" sortOrder="1" disabled="false" />
+    </type>
 </config>
