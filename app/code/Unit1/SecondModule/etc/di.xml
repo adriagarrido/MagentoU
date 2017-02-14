@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Unit1\FirstModule\MagentoU\Test">
+        <arguments>
+            <argument name="data" xsi:type="array">
+                <item name="test-array-item-second" xsi:type="string">Test Array Item Second!!!</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
