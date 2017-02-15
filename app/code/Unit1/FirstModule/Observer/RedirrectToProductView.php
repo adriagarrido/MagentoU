@@ -36,11 +36,11 @@ class RedirrectToProductView implements \Magento\Framework\Event\ObserverInterfa
      */
     public function execute(\Magento\Framework\Event\Observer $observer)
     {
-        $request = $observer->getEvent()->getData('request');
-        if ($request->getModuleName() != 'catalog' || $request->getControllerName() != 'product') {
-            $controller = $observer->getControllerAction();
-            $this->_actionFlag->set('', \Magento\Framework\App\Action\Action::FLAG_NO_DISPATCH, true);
-            $this->redirect->redirect($controller->getResponse(), 'catalog/product/view/id/1');
-        }
+        // $request = $observer->getEvent()->getData('request');
+        // if ($request->getModuleName() != 'catalog' || $request->getControllerName() != 'product') {
+        //     $controller = $observer->getControllerAction();
+        //     $this->_actionFlag->set('', \Magento\Framework\App\Action\Action::FLAG_NO_DISPATCH, true);
+        //     $this->redirect->redirect($controller->getResponse(), 'catalog/product/view/id/1');
+        // }
     }
 }
