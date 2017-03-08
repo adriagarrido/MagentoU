@@ -1,4 +1,5 @@
 # All explanations you could find in .htaccess.sample file
+SetEnv MAGE_MODE developer
 DirectoryIndex index.php
 <IfModule mod_php5.c>
     php_value memory_limit 768M
