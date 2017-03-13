@@ -11,7 +11,7 @@ class Index extends \Magento\Backend\App\Action
      */
     public function execute()
     {
-        $this->getResponse()->appendBody("HELLO WORLD");
+        $this->_redirect('catalog/category/view/id/3');
     }
 
     /**
