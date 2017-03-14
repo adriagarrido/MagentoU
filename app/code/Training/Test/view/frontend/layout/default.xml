@@ -3,7 +3,7 @@
     <body>
         <referenceContainer name="content.top">
             <block class="Magento\Framework\View\Element\Template"
-                   name="training.example.first"
+                   name="training.test.first"
                    template="Training_Test::first.phtml"/>
         </referenceContainer>
     </body>
