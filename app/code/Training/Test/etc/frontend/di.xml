@@ -16,4 +16,7 @@
     <!-- <type name="Magento\Catalog\Controller\Product\View">
         <plugin name="product-view-controller-plugin" type="Training\Test\Controller\Product\View" sortOrder="10" />
     </type> -->
+    <type name="Magento\Catalog\Block\Product\View\Description">
+        <plugin name="product-view-description-plugin" type="Training\Test\Block\Product\View\Description" sortOrder="10" />
+    </type>
 </config>
