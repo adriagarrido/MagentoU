@@ -4,6 +4,6 @@
         <title>Training Test Exercise</title>
     </head>
     <body>
-        <remove name="training.test.first" />
+        <referenceBlock name="training.test.first" remove="true"/>
     </body>
 </page>
