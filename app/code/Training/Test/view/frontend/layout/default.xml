@@ -10,5 +10,13 @@
                 </arguments>
             </block>
         </referenceContainer>
+        <referenceBlock name="header.links">
+            <block class="Magento\Framework\View\Element\Html\Link" name="test.link" after="-">
+                <arguments>
+                    <argument name="label" xsi:type="string">Test page</argument>
+                    <argument name="path" xsi:type="string">test/layout/onepage</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
     </body>
 </page>
