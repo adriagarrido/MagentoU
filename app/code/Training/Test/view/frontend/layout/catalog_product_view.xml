@@ -2,12 +2,14 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content.top">
-            <block class="Magento\Framework\View\Element\Template"
-                   name="training.test.first"
-                   template="Training_Test::first.phtml">
+            <block class="Magento\Framework\View\Element\Template" name="training.test.first" template="Training_Test::first.phtml">
                 <arguments>
                     <argument name="background-color" xsi:type="string">orange</argument>
                 </arguments>
+            </block>
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="print-attributes" template="Training_Test::print_attributes.phtml">
             </block>
         </referenceContainer>
     </body>
