@@ -6,7 +6,7 @@
                    name="training.test.first"
                    template="Training_Test::first.phtml">
                 <arguments>
-                    <argument name="background_color" xsi:type="string">orange</argument>
+                    <argument name="background-color" xsi:type="string">orange</argument>
                 </arguments>
             </block>
         </referenceContainer>
