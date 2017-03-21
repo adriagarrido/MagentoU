@@ -8,9 +8,9 @@
                 </arguments>
             </block>
         </referenceContainer>
-        <referenceContainer name="content">
+        <!-- <referenceContainer name="content">
             <block class="Magento\Framework\View\Element\Template" name="print-attributes" template="Training_Test::print_attributes.phtml">
             </block>
-        </referenceContainer>
+        </referenceContainer> -->
     </body>
 </page>
