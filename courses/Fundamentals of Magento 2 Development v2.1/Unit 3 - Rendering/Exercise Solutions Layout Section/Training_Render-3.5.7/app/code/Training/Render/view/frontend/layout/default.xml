@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../../../htdocs/lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content.top">
+            <block class="Magento\Framework\View\Element\Template"
+                   name="training.example.first"
+                   template="Training_Render::first.phtml">
+                <arguments>
+                    <argument name="background_color" xsi:type="string">lightskyblue</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+        <referenceBlock name="header.links">
+            <block class="Magento\Framework\View\Element\Html\Link" name="example.link" before="-">
+                <arguments>
+                    <argument name="label" xsi:type="string" translate="false">Example Page</argument>
+                    <argument name="path" xsi:type="string">training_render/layout/onecolumn</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+    </body>
+</page>

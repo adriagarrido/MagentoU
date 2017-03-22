@@ -1,0 +1,21 @@
+{
+  "name": "training/module-eavbackend",
+  "description": "n.a.",
+  "require": {
+    "php": "~5.6.0|^7.0.0",
+    "magento/module-eav": "100.1.2",
+    "magento/framework": "^100.1.2",
+  },
+  "type": "magento2-module",
+  "license": [
+    "BSD-3-Clause"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Training\\EavBackend\\": ""
+    }
+  }
+}
